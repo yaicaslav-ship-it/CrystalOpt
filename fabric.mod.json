@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "fastcrystal",
+  "version": "${version}",
+  "name": "Fast Crystal",
+  "description": "Removes delay on End Crystal placement and attack.",
+  "authors": [
+    "Author"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.fastcrystal.FastCrystalMod"
+    ]
+  },
+  "mixins": [
+    "fastcrystal.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
+}

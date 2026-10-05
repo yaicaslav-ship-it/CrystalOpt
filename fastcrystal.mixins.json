@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.example.fastcrystal.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "MinecraftClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
